@@ -1,0 +1,145 @@
+
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	color: #fff;
+	ont-family: 'News Cycle', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header{
+	background: #133350;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+.row{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+
+h1{
+	color: #fff;
+	font-size: 180%;
+	letter-spacing: 1px;
+	float: left;
+	margin-left: 300px;
+}
+.main-main{
+	text-align: right;
+	margin-top: 30px;
+	margin-right: 300px;
+	color: #1E6C7D;
+	
+}
+.main-nav{
+	float: right;
+	margin-right: 300px;
+}
+.main-nav li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 30px;
+}
+.main-nav li a{
+	padding: 5px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	font-weight: 100;
+}
+.main-nav li a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+.main-content-header{
+	text-align: center;
+}
+
+.btn{
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #fff;
+	color: black;
+	padding: 14px 28px;
+	font-size: 10px;
+	cursor: pointer;
+}
+.btn-full{
+	background-color: transparent;
+	color: #fff;
+	border:1px solid #fff;
+}
+.btn-full:hover{
+	background-color: #fff;
+	color: #133350;
+}
+
+main{
+	margin-left: 380px;
+	background-color: #fff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 350px;
+}
+
+.box{
+	background: #fff;
+	display: block;
+	float: left;
+	padding: 10px;
+}
+
+footer{
+	background: #133350;
+	height: 120px;
+	padding: 3px;
+}
+h4{
+	color: #fff;
+	font-size: 60%;
+	letter-spacing: 3px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 300px;
+}
+.main-footer{
+	text-align: right;
+	margin-right: 300px;
+}
+.main-footer li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.main-footer li a{
+	padding: 5px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 60%;
+	font-weight: 100;
+}
+.main-footer li a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+
